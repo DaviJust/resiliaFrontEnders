@@ -7,17 +7,16 @@ document.getElementById('sweetalert').addEventListener('click',function validaCa
 	var email = document.getElementById('email');
 	var filtro = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
 	var contErro = 0;
-
+	var senha2 = document.getElementById("senha") 
 
 	/* Validação do campo email */
 	// caixa_email = document.getAnimations('emailRecuperar');
-	if (email.value == "") {
-		swal("E-mail incompleto ou errado", "Corrija seu e-mail", "error");
-	} else if (filtro.test(email.value)) {
-	swal("Recuperação de senha enviada!", "Cheque sua caixa de entrada, lixeira e(ou) spam", "success");
+	if (email.value == "" || senha2.value == "") {
+		swal("E-mail ou senha incompleto(s) ou errado(s)", "Por favor, corrija", "error");
+	} else if (filtro.test(email.value) && senha2.value.length > 6) {
+	swal("Bem vindo!", "Bons estudos", "success");
 } else {
-		caixa_email.innerHTML = "Formato do E-mail inválido";
-		caixa_email.style.display = 'block';
+	swal("E-mail incompleto ou errado", "Corrija seu e-mail", "error");
 		contErro += 1;
 	}
 
