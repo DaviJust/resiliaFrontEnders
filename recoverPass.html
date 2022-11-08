@@ -8,25 +8,52 @@
   <link rel="stylesheet" href="/css/paginaLog.css">
   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="icon" href="./img/logo.png">
+
 </head>
 
 <body>
+   <header>
+    <nav>
+      <ul>
+        <a href="index.html"><img id="logo" src="./img/logo.png" alt="frontenderslog"></a>      
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="nossoscursos.html">Nossos cursos</a></li>
+        <li><a href="cadastro.html">Cadastra-se</a></li>
+        <li><a href="conta.html">Acesse sua conta</a></li>
+      </ul>
+    </nav>
+    </header>
 <!-- formulario para recuperar e-mail -->
   <div class="imgfundo">
 
     <body class="text-center">
-      <div class="transbox">
+      <div class="transbox ">
         <main class="form-signin w-100 m-auto">
-          <div class="mb-3">
-            <h1 class="tituloRecuperar" for="email">Recuperar E-mail</h1>
-            <input type="email" class="form-control emailRecuperar" id="email" placeholder="você@example.com">
-            <button href="#myModal" id="sweetalert" data-toggle="modal"
-              class="trigger-btn w-100 btn btn-lg btn-primary form-control2 enviarSenha" id="recoverPass"
+          <div class="mb-3 login2">
+            <h1 class="tituloRecuperar login2" for="email">Recuperar E-mail</h1>
+            <input type="email" class="form-control emailRecuperar login2" id="email" placeholder="você@example.com">
+            <button href="#myModal" id="sweetalert"  data-toggle="modal"
+              class=" login2 trigger-btn w-100 btn btn-lg btn-primary form-control2 enviarSenha" id="recoverPass"
               type="submit">Enviar</button>
           </div>
       </div>
-      </main>
+      <footer>
+        <div class="redesociais">
+      <ul>
+        <li><a href="https://www.w3schools.com/default.asp"><img src="./img/logoinstagram.png"></a></li>
+        <li><a href="https://www.w3schools.com/default.asp"><img src="./img/logotwitter.png"></a></li>
+        <li><a href="https://www.w3schools.com/default.asp"><img src="./img/logofacebook.png"></a></li>
+        <li><a href="https://www.w3schools.com/default.asp"><img src="./img/logoyoutube.png"></a></li>
+      </ul>
+    </div>
+    <div id="direitos">
+      <p>Todos os direitos reservados - 2017-2022 - Front Enders.</p>
+    </div>
+    </footer>
+  
       <script src="/scripts/recuperarsenha.js"></script>
     </body>
-
+  
+    
 </html>
