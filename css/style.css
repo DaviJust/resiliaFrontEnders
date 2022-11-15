@@ -7,51 +7,25 @@ html {
     background-color: #1952BF;
     color: white;
     font-family: 'Jost', sans-serif;
-    margin-top: 57px;
-    height: 100%;
+    text-align: center;
 }
+
 
 
 /* Barra de navegação */
-nav {
-    background-color: white;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-}
-
-nav img {
-    width: 90px;
-    margin-top: 10px;
-    margin-left: 250px;
-}
-
-nav ul {
-    float: right;
-    line-height: 80px;
-}
-
-nav ul li {
-    list-style: none;
-    float: left;
-    margin: 0 15px;
-    padding-right: 180px;
-}
-
-nav li a {
-    text-decoration: none;
-    color: black;
+.navbar-brand img{
+    margin: 0 0 0 50px;
+    }
+    
+    .navbar-nav a{
     font-weight: bold;
+    margin-left: 245px;
     font-size: 20px;
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    transition: 0.5s;
-}
-
-nav a:hover {
+    }
+    
+    .navbar-nav a:hover{
     color: #1952BF;
-}
+    }
 
 /* Banner */
 .umbanner {
