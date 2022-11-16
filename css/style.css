@@ -13,22 +13,22 @@ html {
 }
 
 /* Barra de navegação */
-.navbar-brand img{
-margin: 0 0 0 50px;
+.navbar-brand img {
+    margin: 0 0 0 50px;
 }
 
-.navbar-nav a{
-font-weight: bold;
-margin-left: 245px;
-font-size: 20px;
+.navbar-nav a {
+    font-weight: bold;
+    margin-left: 245px;
+    font-size: 20px;
 }
 
-.navbar-nav a:hover{
-color: #1952BF;
+.navbar-nav a:hover {
+    color: #1952BF;
 }
 
 /* Rodapé */
-footer{
+footer {
     background-color: gray;
     border-top: 5px solid rgb(71, 71, 71);
     font-family: 'Inter', sans-serif;
@@ -37,31 +37,31 @@ footer{
     position: absolute;
 }
 
-#footerlogo{
-margin-top: 15px;
+#footerlogo {
+    margin-top: 15px;
 
 }
 
-#footerlogo a{
-text-decoration: none;
-color: white;
+#footerlogo a {
+    text-decoration: none;
+    color: white;
 }
 
 #footerredesociais {
-display: flex;
-justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
-#footerredesociais img{
+#footerredesociais img {
     width: 40px;
     height: 40px;
     margin-left: 25px;
 }
 
-#footerredesociais a{
-   margin: 30px;
-   text-align: center;
-   
+#footerredesociais a {
+    margin: 30px;
+    text-align: center;
+
 }
 
 /* ================================================= Configurações da página index ========================================================== */
@@ -132,10 +132,10 @@ justify-content: center;
 }
 
 /* Texto da parte de contexto */
-#areacontexto{
-background-color: #113780;
-border-radius: 40px;
-margin: 0 10px 0 10px;
+#areacontexto {
+    background-color: #113780;
+    border-radius: 40px;
+    margin: 0 10px 0 10px;
 }
 
 #areacontexto img {
@@ -155,10 +155,10 @@ margin: 0 10px 0 10px;
     position: relative;
 }
 
-#areamissao{
-background-color: #113780;
-border-radius: 40px;
-margin: 0 10px 0 10px;
+#areamissao {
+    background-color: #113780;
+    border-radius: 40px;
+    margin: 0 10px 0 10px;
 }
 
 #areamissao img {
