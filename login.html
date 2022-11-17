@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Front Enders - Login</title>
+  <link rel="stylesheet" href="/css/paginaLog.css">
+  <link rel="icon" href="./img/logo.png">
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+
+<body>
+  <main>
+    <!-- formulario para entrar -->
+    <div class="imgfundo">
+      <body class="text-center">
+        <div class="transbox">
+          <main class="form-signin w-100 m-auto">
+
+            <img class="mb-4" src="/img/login.webp" alt="" width="72" height="57">
+            <h1 class="h3 mb-3 fw-normal form-control2">Entre</h1>
+            <!-- Login -->
+            <div class="form-floating">
+              <input type="email" class="form-control form-control2" id="email" placeholder="name@example.com">
+              <label for="floatingInput">Email</label>
+            </div>
+            <div class="form-floating">
+              <input type="password" class="form-control form-control2" id="senha" placeholder="Password">
+              <label for="floatingPassword">Senha</label>
+            </div>
+
+            <div class="checkbox mb-3 form-control2">
+              <label>
+                <input class="form-control2" type="checkbox" value="remember-me"> Lembrar de mim
+              </label>
+            </div>
+            <button class="w-100 btn btn-lg btn-primary form-control2" id="sweetalert" type="submit">Entrar</button>
+            <a href="/recoverPass.html">Recuperar Senha</a>
+            <p class="mt-5 mb-3 text-muted form-control2">© 2017–2022</p>
+        </div>
+  </main>
+
+  <script src="/js/login.js"></script>
+</body>
+
+</html>
