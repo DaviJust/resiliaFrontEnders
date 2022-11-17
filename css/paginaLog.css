@@ -1,29 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@700&display=swap');
+
 html,
 body {
   height: 100%;
 }
 
 div.transbox {
-background-image: url("/img/registroLogin2.jpg");
-margin: 30px;
-background-color: black;
-width: 752px;
-height: 500px;
-opacity: 1;
-margin-left: 290px;
-box-shadow: 5px 5px #888888;
-border-radius: 25px;
+  background-image: url("/img/registroLogin2.jpg");
+  margin: 30px;
+  background-color: black;
+  width: 752px;
+  height: 500px;
+  opacity: 1;
+  margin-left: 290px;
+  box-shadow: 5px 5px #888888;
+  border-radius: 25px;
 
 }
+
 .form-control2 {
-    color: rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
 }
 
 body {
-    background-color: #1952BF !important;
-    font-family: 'Jost', sans-serif !important; 
-    display: flex;
+  background-color: #1952BF !important;
+  font-family: 'Jost', sans-serif !important;
+  display: flex;
   align-items: center;
   padding-top: 40px;
   padding-bottom: 40px;
@@ -52,26 +54,26 @@ body {
 }
 
 .emailRecuperar {
-    margin-top: 180px;
-    height: 45px;
+  margin-top: 180px;
+  height: 45px;
 }
 
 .enviarSenha {
-    margin-top: 60px;
-    margin-left: 320px;
+  margin-top: 60px;
+  margin-left: 320px;
 }
 
 .tituloRecuperar {
-    margin-left: 260px;
-    width: 200px;      
-    font-size: 25px;
-    background-color: #7a9dde;
-    color: white;
-    
+  margin-left: 260px;
+  width: 200px;
+  font-size: 25px;
+  background-color: #7a9dde;
+  color: white;
+
 }
 
 
 .emailRecuperar {
-margin-top: 160px;
-margin-left: 215px;
+  margin-top: 160px;
+  margin-left: 215px;
 }
