@@ -142,6 +142,7 @@ footer {
     border-radius: 40px;
     float: left;
     width: 560px;
+    height: 408px;
     padding-right: 20px;
 
 }
@@ -155,6 +156,7 @@ footer {
     position: relative;
 }
 
+/* Texto da parte da missão */
 #areamissao {
     background-color: #113780;
     border-radius: 40px;
@@ -165,6 +167,7 @@ footer {
     border-radius: 40px;
     float: right;
     width: 560px;
+    height: 408px;
     padding-left: 20px;
 }
 
