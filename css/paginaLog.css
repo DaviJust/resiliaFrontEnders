@@ -1,9 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@700&display=swap');
 html,
-body {
-  height: 100%;
+
+body,
+html {
+    background-color: #1952BF;
+    color: white;
+    font-family: 'Jost', sans-serif;
+    text-align: center;
+    margin-top: 58px;
+    height: 100%;
+
 }
 
+/* Barra de navegação */
+.navbar-brand img {
+  margin: 0 0 0 50px;
+}
+
+.navbar-nav a {
+  font-weight: bold;
+  margin-left: 180px;
+  font-size: 20px;
+}
+
+.navbar-nav a:hover {
+  color: #1952BF;
+}
 
 div.transbox {
 background-image: url("/img/registroLogin2.jpg");
@@ -12,7 +34,7 @@ background-color: black;
 width: 752px;
 height: 500px;
 opacity: 1;
-margin-left: 290px;
+margin-left: 340px;
 box-shadow: 5px 5px #888888;
 border-radius: 25px;
 
@@ -87,48 +109,83 @@ div .login {
   margin-right: 40px;
   margin-left: 40px;
 }
-/* Banner */
-.umbanner {
-  background-image: url("../img/BannerLivros.png");
-  height: 70%;
+
+/* Rodapé */
+footer {
+  background-color: gray;
+  border-top: 5px solid rgb(71, 71, 71);
+  font-family: 'Inter', sans-serif;
+  width: 100%;
   left: 0;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   position: absolute;
 }
 
-.textoumbanner h2 {
+#footerlogo {
+  margin-top: 15px;
+
+}
+
+#footerlogo a {
+  text-decoration: none;
+  color: white;
+}
+
+#footerredesociais {
+  display: flex;
+  justify-content: center;
+}
+
+#footerredesociais img {
+  width: 40px;
+  height: 40px;
+  margin-left: 25px;
+}
+
+#footerredesociais a {
+  margin: 30px;
+  text-align: center;
+
+}
+
+/* ================================================= Configurações da página index ========================================================== */
+/* Banner */
+#banner1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/banner1.jpg");
+  height: 65%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#textobanner1 h2 {
   font-family: 'Inter', sans-serif;
   font-weight: bold;
   font-size: 47px;
   text-transform: uppercase;
   text-align: center;
-  padding-right: 1250px;
-  padding-left: 45px;
-  color: white;
+  color: red;
 }
 
-.textoumbanner p {
+#textobanner1 p {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 40px;
-  text-align: justify;
-  padding-right: 1250px;
-  padding-left: 45px;
+  text-align: center;
   color: white;
-}
 
+}
 
 /* Texto de descrição*/
-.textodescricao {
+#textodescricao {
   color: black;
   background-color: #113780;
-  border-radius: 44px;
+  border-radius: 40px;
   font-size: 50px;
+  margin: 0 10px 0 10px;
 }
 
-.textodescricao p {
+#textodescricao p {
   text-align: justify;
   color: white;
   padding: 15px 45px 0 45px;
@@ -136,7 +193,7 @@ div .login {
   font-weight: 400;
 }
 
-.textodescricao button {
+#textodescricao button {
   border: none;
   border-radius: 5px;
   background-color: #97ADFF;
@@ -145,112 +202,63 @@ div .login {
   height: 100px;
   font-size: 30px;
   font-weight: bold;
-  margin-left: 1600px;
-  margin-bottom: 40px;
   transition: 0.5s;
   cursor: pointer;
+  float: right;
+  margin-right: 45px;
+  position: relative;
 }
 
-.textodescricao button:hover {
-  background-color: lightblue;
+#textodescricao button:hover {
+  background-color: rgb(0, 187, 250);
+  color: white;
 }
 
 /* Texto da parte de contexto */
-.areacontexto img {
-  border-radius: 44px;
-  float: left;
-  width: 600px;
+#areacontexto {
+  background-color: #113780;
+  border-radius: 40px;
+  margin: 0 10px 0 10px;
 }
 
-.areacontexto p {
+#areacontexto img {
+  border-radius: 40px;
+  float: left;
+  width: 560px;
+  height: 408px;
+  padding-right: 20px;
+
+}
+
+#areacontexto p {
   font-family: 'Jost', sans-serif;
   font-weight: 400;
-  font-size: 35px;
+  font-size: 34px;
   text-align: justify;
-  padding: 0 45px 0 620px;
+  padding-right: 45px;
+  position: relative;
+}
+
+/* Texto da parte da missão */
+#areamissao {
   background-color: #113780;
-  border-radius: 44px;
+  border-radius: 40px;
+  margin: 0 10px 0 10px;
 }
 
-.areamissao img {
-  border-radius: 44px;
+#areamissao img {
+  border-radius: 40px;
   float: right;
-  width: 600px;
+  width: 560px;
+  height: 408px;
+  padding-left: 20px;
 }
 
-.areamissao p {
+#areamissao p {
   font-family: 'Jost', sans-serif;
   font-weight: 400;
-  font-size: 35px;
+  font-size: 34px;
   text-align: justify;
-  padding: 0 620px 0 45px;
-  background-color: #113780;
-  border-radius: 44px;
-}
-
-/* Rodapé */
-footer {
-  position: absolute;
-  left: 0;
-  width: 100%;
-  background-color: grey;
-  border-top: 5px solid rgb(71, 71, 71);
-  font-family: 'Inter', sans-serif;
-}
-
-#logo {
-  position: fixed;
-  width: 50px;
-    margin-top: 0px;
-    margin-left: -60px;
-}
-.redesociais ul {
-  float: right;
-  margin-top: 30px;
-  margin-right: 200px;
-}
-
-.redesociais li {
-  list-style: none;
-  float: left;
-  margin: 0 15px;
-  padding-right: 180px;
-}
-
-.redesociais a {
-  text-decoration: none;
-}
-
-.redesociais img {
-  width: 50px;
-  height: 50px;
-}
-
-#direitos {
-  text-align: center;
-  font-family: 'Inter', sans-serif;
-  font-weight: 400;
-}
-
-
-.redesociais ul {
-  float: right;
-  margin-top: 30px;
-  margin-right: 200px;
-}
-
-.redesociais li {
-  list-style: none;
-  float: left;
-  margin: 0 15px;
-  padding-right: 180px;
-}
-
-.redesociais a {
-  text-decoration: none;
-}
-
-.redesociais img {
-  width: 50px;
-  height: 50px;
+  padding-left: 45px;
+  position: relative;
 }
