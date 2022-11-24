@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Front Enders</title>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/cadastro.css">
+  <link rel="icon" href="./img/logo.png">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img src="./img/logo.png" width="90"><strong>Front Enders</strong></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" href="nossoscursos.html">Nossos cursos</a>
+            <a class="nav-link" href="login.html">Acesse sua conta</a>
+            <a class="nav-link" href="cadastro.html">Registre-se</a>
+            <a class="nav-link" href="contato.html">Fale conosco</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <body class="respect text-center">
+    <div class="respect transbox ">
+      <main class="respect form-signin w-100 m-auto ">
+
+        <h1 class="form-control2 login ">Cadastre-se</h1>
+        <main>
+          <span class="row g-3 d-flex p-2 justify-content-center " id="form">
+
+            <div class="form-group item">
+              <label for="nome" class="form-label">Nome</label>
+              <input type="text" class="form-control inputs required" oninput="nameValidate()" id="nome">
+              <span class="span-required">Nome deve ter no mínimo 3 caracteres</span>
+            </div>
+
+            <div class="form-group item">
+              <label for="email" class="form-label">E-mail</label>
+              <input type="text" class="form-control inputs required" placeholder="seuemail@dominio.com" id="email"
+                oninput="emailValidate()">
+              <span class="span-required">Digite um email válido</span>
+            </div>
+
+            <div class="form-group item">
+              <label for="senha" class="form-label">Senha</label>
+              <input type="text" class="form-control inputs required" maxlength="8" placeholder="********" id="senha"
+                oninput="mainPasswordValidate()">
+              <span class="span-required">Digite uma senha deve ter 8 caracteres</span>
+            </div>
+            <div class="form-group item">
+              <label for="confirma" class="form-label">Confirme a Senha</label>
+              <input type="text" class="form-control inputs required" maxlength="8" placeholder="********" id="confirma"
+                oninput="comparePassword()">
+              <span class="span-required">Senhas devem ser compatíveis</span>
+            </div>
+            <div class="form-group2 item">
+              <label for="form-label rg">RG</label>
+              <input type="text" class="form-control inputs required" placeholder="Somente números" maxlength="9"
+                id="rg" oninput="rgValidate()">
+              <span class="span-required">Insira o numero do RG corretamente</span>
+            </div>
+
+            <div class="form-group2 item">
+              <label for="cep" class="form-label">CEP</label>
+              <input type="text" class="form-control" placeholder="00000-000" maxlength="9" id="cep">
+            </div>
+            <div class="form-group2 item">
+              <label for="logradouro" class="form-label">Logradouro</label>
+              <input type="text" class="form-control" placeholder="Rua" id="logradouro">
+            </div>
+            <div class="form-group2 item">
+              <label for="bairro" class="form-label">Bairro</label>
+              <input type="text" class="form-control" placeholder="Bairro" id="bairro">
+            </div>
+
+            <div class="form-group2 item">
+              <label for="localidade" class="form-label">Localidade</label>
+              <input type="text" class="form-control" placeholder="Cidade" id="localidade">
+            </div>
+            <div class="form-group2 item">
+              <label for="uf" class="form-label">UF</label>
+              <input type="text" class="form-control" placeholder="Estado" id="uf">
+            </div>
+            <div>
+              <button type="submit button" class="btn btn-primary w-25" onclick="finalizar()">Criar Conta</button>
+            </div>
+            </form>
+    </div>
+    </main>
+    <footer>
+      <div id="footerlogo">
+        <a href="index.html"><img src="./img/logo.png" width="90"><strong>Front Enders</strong></a>
+      </div>
+      <div id="footerredesociais">
+        <a href="https://pt-br.facebook.com/" target="_blank" rel="noopener noreferrer">
+          <img src="./img/logofacebook.png">
+        </a>
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+          <img src="./img/logoinstagram.png">
+        </a>
+        <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" id="Insta">
+          <img src="./img/logotwitter.png">
+        </a>
+        <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">
+          <img src="./img/logoyoutube.png">
+        </a>
+      </div>
+      <div id="footerdireitos">
+        <p>Todos os direitos reservados -2020 - Front Enders</p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/cadastro.js"></script>
+  </body>
+
+</html>

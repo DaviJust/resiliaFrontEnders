@@ -1,0 +1,160 @@
+/* Estilo de fonte geral */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Jost:wght@300;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@700&display=swap');
+
+/* ========================================= configurações gerais para todas páginas ========================================================*/
+body,
+html {
+    background-color: #1952BF;
+    color: white;
+    font-family: 'Jost', sans-serif;
+    text-align: center;
+}
+
+/* Barra de navegação */
+.navbar-brand img {
+    margin: 0 0 0 50px;
+}
+
+.navbar-nav a {
+    font-weight: bold;
+    margin-left: 180px;
+    font-size: 20px;
+}
+
+.navbar-nav a:hover {
+    color: #1952BF;
+}
+
+/* Rodapé */
+footer {
+    margin-top: 200px;
+    background-color: gray;
+    border-top: 5px solid rgb(71, 71, 71);
+    font-family: 'Inter', sans-serif;
+    width: 100%;
+    left: 0;
+    position: absolute;
+}
+
+#footerlogo {
+    margin-top: 15px;
+
+}
+
+#footerlogo a {
+    text-decoration: none;
+    color: white;
+}
+
+#footerredesociais {
+    display: flex;
+    justify-content: center;
+}
+
+#footerredesociais img {
+    width: 40px;
+    height: 40px;
+    margin-left: 25px;
+}
+
+#footerredesociais a {
+    margin: 30px;
+    text-align: center;
+
+}
+
+h1{
+    font-weight: bold;
+}
+
+div.container {
+    position: relative;
+    ;
+}
+
+/* Spans */
+.span-required{
+    font-size: 12px;
+    margin: 3px 0 0 1px;
+    color: var(--color-red);
+    display: none;
+    font-weight: bold;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    width: 40%;
+}
+
+label{
+    font-weight: bold;
+}
+
+#rg{
+    margin-top: 8px
+}
+
+.btn{
+    color: white;
+    background-color:#1952BF;
+    border-radius: 30px;
+}
+
+div.transbox {
+    margin-top: 140px;
+    background-color: rgb(76, 95, 150);
+    opacity: 1;
+    box-shadow: 5px 5px #888888;
+    border-radius: 25px;
+    
+}
+
+.respect {
+    width: 700px;
+    margin-left: 180px;
+
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 100px;
+}
+
+.form-group2 {
+    align-content: space-between;
+        width: 400px;
+        height: 100px;
+    }
+/* Flex Item */
+.item {
+    top:40px;
+	background: rgb(93, 100, 144);
+}
+.iconesContato {
+    width: 40px;
+}
+
+
+#contatos{
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 14px;
+    font-size: 30px;
+    text-align: center;
+}
+
+h2{ 
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 25px;
+}
+
+.links{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
