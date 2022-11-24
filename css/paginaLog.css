@@ -3,12 +3,12 @@ html,
 
 body,
 html {
-    background-color: #1952BF;
-    color: white;
-    font-family: 'Jost', sans-serif;
-    text-align: center;
-    margin-top: 58px;
-    height: 100%;
+  background-color: #1952BF;
+  color: white;
+  font-family: 'Jost', sans-serif;
+  text-align: center;
+  margin-top: 58px;
+  height: 100%;
 
 }
 
@@ -28,34 +28,36 @@ html {
 }
 
 div.transbox {
-background-image: url("/img/registroLogin2.jpg");
-margin: 30px;
-background-color: black;
-width: 752px;
-height: 500px;
-opacity: 1;
-margin-left: 340px;
-box-shadow: 5px 5px #888888;
-border-radius: 25px;
+  background-image: url("/img/registroLogin2.jpg");
+  margin: 30px;
+  background-color: black;
+  width: 752px;
+  height: 500px;
+  opacity: 1;
+  margin-left: 340px;
+  box-shadow: 5px 5px #888888;
+  border-radius: 25px;
 
 }
+
 .form-control2 {
-    color: rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
 }
 
 body {
-    background-color: #1952BF !important;
-    font-family: 'Jost', sans-serif !important; 
-    display: flex;
+  background-color: #1952BF !important;
+  font-family: 'Jost', sans-serif !important;
+  display: flex;
   align-items: center;
   padding-top: 40px;
   padding-bottom: 40px;
-  
+
 }
 
 header {
   margin-left: 10px;
 }
+
 /* Barra de navegação */
 nav {
   background-color: white;
@@ -99,9 +101,9 @@ nav a:hover {
 }
 
 .login2 {
- margin-bottom: 90px;
- width: 300px;
- margin-left: 120px;
+  margin-bottom: 90px;
+  width: 300px;
+  margin-left: 120px;
 }
 
 div .login {

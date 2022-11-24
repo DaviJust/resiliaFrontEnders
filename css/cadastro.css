@@ -64,7 +64,7 @@ footer {
 
 }
 
-h1{
+h1 {
     font-weight: bold;
 }
 
@@ -74,7 +74,7 @@ div.container {
 }
 
 /* Spans */
-.span-required{
+.span-required {
     font-size: 12px;
     margin: 3px 0 0 1px;
     color: var(--color-red);
@@ -82,7 +82,7 @@ div.container {
     font-weight: bold;
 }
 
-.container{
+.container {
     display: flex;
     align-items: center;
     padding-top: 10%;
@@ -90,17 +90,17 @@ div.container {
     width: 40%;
 }
 
-label{
+label {
     font-weight: bold;
 }
 
-#rg{
+#rg {
     margin-top: 8px
 }
 
-.btn{
+.btn {
     color: white;
-    background-color:#1952BF;
+    background-color: #1952BF;
     border-radius: 30px;
 }
 
@@ -110,7 +110,7 @@ div.transbox {
     opacity: 1;
     box-shadow: 5px 5px #888888;
     border-radius: 25px;
-    
+
 }
 
 .respect {
@@ -118,7 +118,8 @@ div.transbox {
     margin-left: 180px;
 
 }
-.form-group{
+
+.form-group {
     display: flex;
     flex-direction: column;
     width: 400px;
@@ -127,33 +128,35 @@ div.transbox {
 
 .form-group2 {
     align-content: space-between;
-        width: 400px;
-        height: 100px;
-    }
+    width: 400px;
+    height: 100px;
+}
+
 /* Flex Item */
 .item {
-    top:40px;
-	background: rgb(93, 100, 144);
+    top: 40px;
+    background: rgb(93, 100, 144);
 }
+
 .iconesContato {
     width: 40px;
 }
 
-#contatos{
+#contatos {
 
     padding: 14px;
     font-size: 30px;
     text-align: center;
 }
 
-h2{ 
+h2 {
     text-align: center;
     font-size: 20px;
     font-weight: bold;
     margin-left: 25px;
 }
 
-.links{
+.links {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }

@@ -11,7 +11,7 @@ document.getElementById('sweetalert').addEventListener('click', function validaC
 
 	/* Validação do campo email */
 	// caixa_email = document.getAnimations('emailRecuperar');
-	 if (filtro.test(email.value) && email.value != "") {
+	if (filtro.test(email.value) && email.value != "") {
 		swal("Recuperação de senha enviada!", "Cheque sua caixa de entrada, lixeira e(ou) spam", "success");
 	} else {
 		swal("E-mail incompleto ou errado", "Corrija seu e-mail", "error");
