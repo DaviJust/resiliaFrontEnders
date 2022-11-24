@@ -7,9 +7,9 @@
 <a>🟣Objetivo Soft Skill:Criar PITCH e uma apresentar o produto</a>
 
 ## Soft
-<h1>🟫Sobre a empresa⬜</h1>
+<h3>🟫Sobre a empresa⬜</h3>
 <a>Nossa empresa foi fundada em meados do ano de 2020. Um projeto que vinha sendo elaborado a algum tempo, ponderando trazer mais praticidade para atender um público totalmente conectado. Essa geração Z que vive com o celular à mão e gosta de estar totalmente online. O segundo idioma hoje é muito solicitado na vida, mas principalmente no mercado de trabalho.</a>
-<h1>🟥Produto🟩</h1>
+<h3>🟥Produto🟩</h3>
 <a>Com boa parte da vida parada ou com uma demanda de tarefas menor, por que não aproveitar o tempo livre para aprender no conforto da sua casa? Por isso o Front Enders desenvolveu a plataforma de Cursos Linguísticos Online.</a>
 
 
