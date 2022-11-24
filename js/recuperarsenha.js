@@ -11,17 +11,9 @@ document.getElementById('sweetalert').addEventListener('click', function validaC
 
 	/* Validação do campo email */
 	// caixa_email = document.getAnimations('emailRecuperar');
-	if (email.value == "") {
-		swal("E-mail incompleto ou errado", "Corrija seu e-mail", "error");
-	} else if (filtro.test(email.value)) {
+	 if (filtro.test(email.value) && email.value != "") {
 		swal("Recuperação de senha enviada!", "Cheque sua caixa de entrada, lixeira e(ou) spam", "success");
 	} else {
-		caixa_email.innerHTML = "Formato do E-mail inválido";
-		caixa_email.style.display = 'block';
-		contErro += 1;
-	}
-
-	if (contErro > 0) {
-		evt.preventDefault();
+		swal("E-mail incompleto ou errado", "Corrija seu e-mail", "error");
 	}
 })
