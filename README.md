@@ -22,7 +22,7 @@
 <img align="center" src="https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white" width="60"/>
 <p><i>🟦Estilos</i><p>
 <img align="center" src="https://img.shields.io/badge/-Bootstrap-purple" width="60"/>
-<p><i>🟪Estilos da pagina com o bootstrap</i><p>
+<p><i>🟪Estilos da pagina com o bootstrap.</i><p>
 </div>
 
 
