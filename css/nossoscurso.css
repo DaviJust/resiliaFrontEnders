@@ -1,18 +1,17 @@
 /* Configurações gerais */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Jost:wght@300;600;700&display=swap');
+
 body {
     background-color: #1952BF;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Jost', sans-serif;
-    margin-top: 60px;
+    margin-top: 40px;
     text-align: center;
 }
 
 /* Barra de navegação */
-nav{
-border-bottom: 3px solid rgb(71, 71, 71);
-}
 .navbar-brand img {
     margin: 0 0 0 50px;
 }
@@ -65,16 +64,25 @@ footer {
 }
 
 /* Configurações da pagina */
-.texto p{
-font-size: 30px;
-padding: 0 50px 0 50px;
+.texto p {
+    font-size: 30px;
+    text-align: justify;
+    padding: 20px 250px 0 250px;
+    color: white;
+
+}
+
+.texto h1 {
+    text-decoration: underline;
+    color: red;
+    padding: 30px 0 30px 0;
 }
 
 .tituloF {
     font-size: 2rem;
     text-align: center;
     margin: 50px 0;
-    color: #1952BF;
+    color: white;
     font-weight: bold;
 }
 
@@ -82,20 +90,25 @@ padding: 0 50px 0 50px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    padding-bottom: 5px;
+
 }
 
 .TodosPlanos .plan {
     width: 330px;
-    height: 550px;
+    height: 580px;
     text-align: center;
     padding: 30px 20px;
     margin-right: 10px;
     margin-bottom: 26px;
     border-radius: 5px;
+    margin: 20px;
+
+
 }
 
 .TodosPlanos .plan .plano-preco {
-    font-size: 4rem;
+    font-size: 3rem;
     color: black;
 }
 
@@ -106,75 +119,68 @@ padding: 0 50px 0 50px;
     color: black;
 }
 
-.TodosPlanos .plan .plan-features .plan-item {
-    padding: 15px 0;
-    border-bottom: 1px solid #66d6fa;
-    list-style: none;
-}
 
 .TodosPlanos .plan .btn {
     display: block;
-    background-color: #66d6fa;
     padding: 10px;
     margin-top: 30px;
     color: black;
     border-radius: 5px;
+
 }
 
 .TodosPlanos .basic .btn {
     margin-top: 100px;
-}
 
-.basic .plan .btn {
-    box-shadow: 0 0.6rem 1.6rem #66d6fa;
-}
-
-.TodosPlanos .plan .btn:hover {
-    background-color: #f6f6fe;
-    color: #494c5f;
-    border: 1px solid #66d6fa;
 }
 
 .TodosPlanos .plan .btn-blue {
     background-color: #f6f6fe;
     color: black;
+
 }
 
 .TodosPlanos .plan .btn-blue:hover {
-    background-color: blue;
+    background-color: #FFA000;
     color: white;
     border: 1px solid white;
+
 }
 
 .TodosPlanos .basic .btn:hover {
     background-color: #26c268;
+
 }
 
-.TodosPlanos .pro .btn:hover {
-    background-color: #FFA000;
-}
+.TodosPlanos .long .btn:hover {
+    background-color: #ED193F;
 
+}
 
 .TodosPlanos .basic {
     color: #26c268;
     box-shadow: 0 0.6rem 1.6rem #26c268;
+    background-color: white;
+
 }
 
-.TodosPlanos .pro {
-    color: #FFA000;
-    box-shadow: 0 0.6rem 1.6rem #FFA000;
+.TodosPlanos .long {
+    color: #ED193F;
+    box-shadow: 0 0.6rem 1.6rem #ED193F;
     width: 320px;
-    height: 550px;
+    height: 580px;
     text-align: center;
     padding: 30px 20px;
     margin-right: 10px;
     margin-bottom: 20px;
     border-radius: 5px;
+    background-color: white;
 }
 
-.TodosPlanos .master {
-    color: #5E9FC8;
-    box-shadow: 0 0.6rem 1.6rem blue;
+.TodosPlanos .plus {
+    color: #FFA000;
+    box-shadow: 0 0.6rem 1.6rem #FFA000;
+    background-color: white;
 }
 
 .basic:hover {
@@ -182,12 +188,18 @@ padding: 0 50px 0 50px;
     z-index: 1;
 }
 
-.pro:hover {
+.long:hover {
     transform: scale(1.1);
     z-index: 1;
 }
 
-.master:hover {
+.plus:hover {
     transform: scale(1.1);
     z-index: 1;
+}
+
+.caixafundo {
+    background-color: #113780;
+    border-radius: 44px;
+    margin: 0 80px 10px 80px;
 }

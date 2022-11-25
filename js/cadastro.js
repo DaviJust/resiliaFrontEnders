@@ -23,7 +23,7 @@ cep.addEventListener("blur", (e) => {
     fetch(`https://viacep.com.br/ws/${search}/json/`, options)
         .then(response => {
             response.json()
-            .then(data => showData(data))
+                .then(data => showData(data))
         })
         .catch(e => console.log('Deu Erro: ' + e, message))
 })
