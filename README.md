@@ -4,7 +4,7 @@
 
 ## Sobre o projeto
 <a>🟤Objetivo Hard Skill: Criar uma pagina de um produto para uma empresa ficticia usando as ferramentas pedidas: Bootstrap, javascript, css, html, API</i>
-<p><a>🟣Objetivo Soft Skill:Criar PITCH e uma apresentar o produto</a>
+<p><a>🟣Objetivo Soft Skill:Criar PITCH, apresentar e convencer sobre o produto.</a>
 
 ## Soft
 <h3>🟫Sobre a empresa⬜</h3>
