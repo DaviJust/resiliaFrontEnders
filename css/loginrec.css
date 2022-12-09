@@ -28,7 +28,7 @@ html {
 }
 
 div.transbox {
-  background-image: url("/img/registroLogin2.jpg");
+  background-image: url("../img/registroLogin2.jpg");
   margin: 30px;
   background-color: black;
   width: 752px;
